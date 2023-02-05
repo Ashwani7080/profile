@@ -27,7 +27,7 @@ for(let i=1; i<=8; i++)
         }
          else if(id=="8")
         {
-            setTimeout(function() { window.open('tel:7080774165', "_blank") }, 1);
+            setTimeout(function() { window.open('tel:+917080774165', "_blank") }, 1);
         }
 
         else if(id=="4")
