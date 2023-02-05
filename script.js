@@ -1,4 +1,4 @@
-for(let i=1; i<=7; i++)
+for(let i=1; i<=8; i++)
  {
     const elem=document.getElementById(i+"");
     elem.addEventListener("click",visitLink);
@@ -24,6 +24,10 @@ for(let i=1; i<=7; i++)
         else if(id=="3")
         {
             setTimeout(function() { window.open('https://www.facebook.com/profile.php?id=100008507022890', "_blank") }, 1);
+        }
+         else if(id=="8")
+        {
+            setTimeout(function() { window.open('tel:7080774165', "_blank") }, 1);
         }
 
         else if(id=="4")
